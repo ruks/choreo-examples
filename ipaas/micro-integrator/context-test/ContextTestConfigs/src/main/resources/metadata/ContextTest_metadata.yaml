@@ -1,0 +1,11 @@
+---
+key: "ContextTest-1.0.0"
+name : "ContextTest"
+displayName : "ContextTest"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/contexttest"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

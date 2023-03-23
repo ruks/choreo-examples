@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/contexttest" name="ContextTest" publishSwagger="ContextTestConfigs/src/main/resources/metadata/ContextTest_swagger.yaml" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/try">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{"Hello":"try"}</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
